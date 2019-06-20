@@ -19,3 +19,17 @@
   - 索引下推
 - B+ 树这种索引结构 概念
 - 如何正确的重建索引
+
+
+## 常用命令和语句
+SHOW INDEX FROM 表名 查询索引的统计信息 https://juejin.im/book/5bffcbc9f265da614b11b731/section/5c061b43f265da612859e3fd
+
+
+SHOW TABLE STATUS where name='table_name' 表数据的统计信息
+
+SHOW VARIABLES LIKE '%dive%'; 查询MySQL的配置文件的参数
+
+SET GLOBAL innodb_old_blocks_pct = 40; 设置参数,等同于修改配置文件
+
+
+SET GLOBAL innodb_buffer_pool_size=268435456; 设置缓存大小
