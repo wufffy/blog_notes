@@ -33,3 +33,6 @@ SET GLOBAL innodb_old_blocks_pct = 40; 设置参数,等同于修改配置文件
 
 
 SET GLOBAL innodb_buffer_pool_size=268435456; 设置缓存大小
+
+### mysql 事务
+#### 隔离级别
